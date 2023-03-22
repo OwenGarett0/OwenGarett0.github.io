@@ -1,0 +1,96 @@
+
+
+@font-face {
+    font-family: "fuente linda";
+    src: url(fuentes/StickNoBills-VariableFont_wght.ttf);
+}
+body{
+    font-family: "fuente linda";
+}
+
+.home{
+
+    display: inline-flex;
+    text-decoration: none;
+    height: 20px;
+    width: 90px;
+    padding: 18px 14px 18px 16px;
+    flex: none;
+    display: inline-flex;
+    position: relative;
+
+
+
+
+
+    display: inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+    fill: var(--iron-icon-fill-color,currentcolor);
+    stroke: var(--iron-icon-stroke-color,none);
+    width: var(--iron-icon-width,24px);
+    height: var(--iron-icon-height,24px);
+    -webkit-animation: var(--iron-icon-animation);
+    animation: var(--iron-icon-animation);
+    margin-top: var(--iron-icon-margin-top);
+    margin-right: var(--iron-icon-margin-right);
+    margin-bottom: var(--iron-icon-margin-bottom);
+    margin-left: var(--iron-icon-margin-left);
+    padding: var(--iron-icon-padding);
+}
+
+
+
+.diva{
+    text-align: center;
+    background-color: #F4D4AF;
+    color: rgb(210, 154, 13);
+    padding: 20px;
+    width: 100%;
+}
+
+nav ul{
+    background-color: gray;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;   
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+body{
+    background-color: #ffe4e1;
+}
+
+#asdimg{
+    size: 20%;
+}
+
+
+
+.p1{
+    color:#0c8ee0;
+}
+
+.lista{
+    color: #0c8ee0;
+}
+
+
