@@ -71,8 +71,16 @@ nav a{
 
 
 
+.titulo_receta{
+    /* padding: 5px; */
+    color:darkorange;
+}
 
-
+.body2{
+    /* padding: 5px; */
+    font-size: 119%;
+    line-height: 170%;
+}
 
 
 body{
