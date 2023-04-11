@@ -1,44 +1,32 @@
-
-
 @font-face {
     font-family: "fuente linda";
     src: url(fuentes/StickNoBills-VariableFont_wght.ttf);
 }
+
+
 body{
     font-family: "fuente linda";
+    background-color: #ffe4e1;
+}
+.body2{
+    /* padding: 5px; */
+    font-size: 119%;
+    line-height: 170%;
 }
 
-.home{
 
+.home{
     display: inline-flex;
     text-decoration: none;
-    height: 20px;
-    width: 90px;
-    padding: 18px 14px 18px 16px;
+    height: 10px;
+    width: 10px;
     flex: none;
     display: inline-flex;
     position: relative;
 
-
-
-
-
-    display: inline-flexbox;
-    display: inline-flex;
     align-items: center;
     justify-content: center;
-    position: relative;
     vertical-align: middle;
-    fill: var(--iron-icon-fill-color,currentcolor);
-    stroke: var(--iron-icon-stroke-color,none);
-    width: var(--iron-icon-width,24px);
-    height: var(--iron-icon-height,24px);
-    -webkit-animation: var(--iron-icon-animation);
-    animation: var(--iron-icon-animation);
-    margin-top: var(--iron-icon-margin-top);
-    margin-right: var(--iron-icon-margin-right);
-    margin-bottom: var(--iron-icon-margin-bottom);
-    margin-left: var(--iron-icon-margin-left);
     padding: var(--iron-icon-padding);
 }
 
@@ -49,30 +37,25 @@ body{
     background-color: #F4D4AF;
     color: rgb(210, 154, 13);
     padding: 20px;
-    width: 100%;
 }
 
 nav ul{
     background-color: gray;
-    width: 100%;
     list-style: none;
     text-align: center;
 }
 nav li{
-    display: inline-flex;   
+    display: inline-flex;  
 }
 nav a{
     text-decoration: none;
     color: white;
-    padding: 10px;
-    width: 150px;
+    padding: 10px 100px 10px 100px;
+
 }
 
-
-
-
 .titulo_receta{
-    /* padding: 5px; */
+    padding: 5px;
     color:darkorange;
 }
 .titulo_principal{
@@ -80,24 +63,9 @@ nav a{
     text-align: center;
 }
 
-
-.body2{
-    /* padding: 5px; */
-    font-size: 119%;
-    line-height: 170%;
-}
-
-
-body{
-    background-color: #ffe4e1;
-}
-
 #asdimg{
     size: 20%;
 }
-
-
-
 .p1{
     color:#0c8ee0;
 }
