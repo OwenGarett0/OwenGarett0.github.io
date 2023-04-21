@@ -23,13 +23,13 @@ body{
     flex: none;
     display: inline-flex;
     position: relative;
+    
 
     align-items: center;
     justify-content: center;
     vertical-align: middle;
     padding: var(--iron-icon-padding);
 }
-
 
 
 .diva{
