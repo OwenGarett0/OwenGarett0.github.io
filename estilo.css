@@ -6,42 +6,99 @@
 
 body{
     font-family: "fuente linda";
-    background-color:lightsalmon
+    background-color:lightsalmon;
+    margin: 0;
 }
 .body2{
     /* padding: 5px; */
     font-size: 119%;
     line-height: 170%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    background-color: #fedbb5;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 25px;
+}
+nav a:hover{
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+@media (max-width:700px){
+    header{
+    flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+/*
 
 .diva{
     text-align: center;
     background-color: #fedbb5;
-    color: rgb(238, 136, 4);
-    padding: 10px;
+    color: rgb(248, 141, 0);
+    padding: 1%;
+}
+.diva:hover{
+    color: rgb(58, 247, 0);
+}
+#home{
+    cursor: pointer;
+    color: #000000;
 }
 
 
 .botones{
-        /* background-image: linear-gradient(to bottom, #fedbb5, #fedbb5ce); */
+
     display: inline-flex;
     padding: 1.8%; 
     list-style: none;
-    text-align:start; 
+    text-align:start;
+    
 
     border-radius: 20px;
     box-shadow: 2px 2px 5px #000000;
     background-color: aliceblue;
-    padding: 10px 20px;
+    padding: 1% 2%;
 
-    /* 
+    /*
+
+    /* esto es otra cosaaaaaaaaaa
     background-image: linear-gradient(#fedbb5, #fedbb5ce);
     background-size: 0% 100%;
     background-position: 0 0;
     background-repeat: no-repeat;
     transition: background-size 0.4s ease-in-out;
-     */
+      esto es otra cosaaaaaaaaaa */
 }
+
+/*
 .botones:hover {
     background-size: 100% 100%;
   }
@@ -49,8 +106,9 @@ body{
 
 nav ul{
     list-style: none;
-    text-align:start; 
-}
+    max-width: 100%;
+    max-height: 100%;
+} 
 nav a{
     text-decoration: none;
     color:  rgb(238, 136, 4);
@@ -58,7 +116,7 @@ nav a{
 
 }
 
-
+*/
 
 
 
@@ -77,12 +135,6 @@ nav a{
     text-align: center;
 }
 
-#asdimg{
-    size: 20%;
-}
-.p1{
-    color:#0c8ee0;
-}
 
 .lista{
     color: #0c8ee0;
