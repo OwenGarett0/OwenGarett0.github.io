@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La flanería</title>
-    <link rel="icon" href="flan.png">
+    <link rel="icon" href="flanes/flanicon.webp">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="StickNoBills-VariableFont_wght.ttf">
 
@@ -37,7 +37,48 @@
 
     </div>
 
+    <input type="text" id="inputFlan" placeholder="Escribe el nombre del flan">
+    <button id="btnAgregarFlan">Agregar</button>
+    <ul id="listaFlanes"></ul>
 
+    <script>
+        // Obtener elementos del DOM
+const btnAgregarFlan = document.getElementById('btnAgregarFlan');
+const listaFlanes = document.getElementById('listaFlanes');
+const inputFlan = document.getElementById('inputFlan');
+
+// Función para agregar un flan a la lista
+function agregarFlan() {
+  const nuevoFlan = inputFlan.value;
+
+  if (nuevoFlan !== '') {
+    const li = document.createElement('li');
+    li.textContent = nuevoFlan;
+    listaFlanes.appendChild(li);
+    inputFlan.value = '';
+  }
+}
+
+// Evento click para agregar flan
+btnAgregarFlan.addEventListener('click', agregarFlan);
+
+
+
+function agregarFlan() {
+  const nuevoFlan = inputFlan.value;
+
+  if (nuevoFlan !== '') {
+    const li = document.createElement('li');
+    li.textContent = nuevoFlan;
+    li.classList.add('flan-item'); // Agrega la clase 'flan-item' al elemento de lista
+    listaFlanes.appendChild(li);
+    inputFlan.value = '';
+  }
+}
+
+
+    </script>
+    
 
     <footer>
         <p>&copy; La Flaneria. Todos los derechos reservados.</p>
