@@ -21,14 +21,15 @@
     <button
       class="navbar-toggler"
       type="button"
-      data-mdb-toggle="collapse"
-      data-mdb-target="#navbarExample01"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarExample01"
       aria-controls="navbarExample01"
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <i class="fas fa-bars"></i>
+      <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarExample01">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item active">
@@ -61,11 +62,12 @@
 </nav>
 <!-- Navbar -->
 
+
 <!-- Imagenes del header -->
 <div class="container position-relative">
   <div class="row">
     <!-- Primera columna -->
-    <div class="col-md-4">
+    <div class="col-md-4 col-12">
       <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
         style="background-image: url('https://img.freepik.com/fotos-premium/pudin-o-flan-caramelo-encima-delicioso-postre-dulce-tradicional_255669-2068.jpg');
                height: 300px;
@@ -74,7 +76,7 @@
     </div>
 
     <!-- Segunda columna -->
-    <div class="col-md-4">
+    <div class="col-md-4 d-none d-md-block">
       <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
         style="background-image: url('https://gastronomiaycia.republica.com/wp-content/photos/flan_de_huevo.jpg');
                height: 300px;
@@ -83,7 +85,7 @@
     </div>
 
     <!-- Tercera columna -->
-    <div class="col-md-4">
+    <div class="col-md-4 d-none d-md-block">
       <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
         style="background-image: url('https://images.hola.com/imagenes/cocina/recetas/20230105224146/flan-azahar/1-186-779/flan-azahar-adob-t.jpg?tx=w_680');
                height: 300px;
@@ -92,13 +94,24 @@
     </div>
   </div>
 
-  <!-- Texto  -->
-  <div class="position-absolute top-50 start-50 translate-middle p-5 text-white text-center" style="background-color: rgba(0, 0, 0, 0.7);">
-    <h2 class="mb-3">La Flaneria</h2>
-    <p>Aprende a hacer flanes de todos los sabores y estilos que puedas imaginar en un solo lugar.</p>
+  <!-- Texto (alineación responsiva) -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="position-absolute top-50 start-50 translate-middle p-3 text-white text-center text-md-left bg-dark bg-opacity-75">
+        <h2 class="mb-3 fs-2 fs-md-4">La Flaneria</h2>
+        <p class="fs-5 fs-md-6 mb-0">Aprende a hacer flanes de todos los sabores y estilos que puedas imaginar en un solo lugar.</p>
+      </div>
+    </div>
   </div>
-</div>
+</div>  
+
 <!-- Imagenes del header -->
+
+
+
+
+
 
   </header>
 <!-- Historia del flan -->
