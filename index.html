@@ -1,122 +1,183 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La flanería</title>
-    <link rel="icon" href="flanes/flanicon.webp">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1869/1869210.png">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="StickNoBills-VariableFont_wght.ttf">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
-
 <!-- ------------------------------------------------------------------------------------------------ -->
-
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
+<body>    
     <header>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarExample01"
-            aria-controls="navbarExample01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarExample01">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="galeria.html">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="receta.html">Recetas</a>
-              </li>
-            </ul>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <div class="container-fluid">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarExample01"
+      aria-controls="navbarExample01"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarExample01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="receta.html">Recetas</a>
+        </li>
+      </ul>
+
+      <!-- Formulario de búsqueda -->
+      <form class="navbar-form navbar-left" action="#">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
           </div>
         </div>
-      </nav>
-      <!-- Navbar -->
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->
+
+<!-- Imagenes del header -->
+<div class="container position-relative">
+  <div class="row">
+    <!-- Primera columna -->
+    <div class="col-md-4">
+      <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+        style="background-image: url('https://img.freepik.com/fotos-premium/pudin-o-flan-caramelo-encima-delicioso-postre-dulce-tradicional_255669-2068.jpg');
+               height: 300px;
+               background-size: cover;">
+      </div>
+    </div>
+
+    <!-- Segunda columna -->
+    <div class="col-md-4">
+      <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+        style="background-image: url('https://gastronomiaycia.republica.com/wp-content/photos/flan_de_huevo.jpg');
+               height: 300px;
+               background-size: cover;">
+      </div>
+    </div>
+
+    <!-- Tercera columna -->
+    <div class="col-md-4">
+      <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+        style="background-image: url('https://images.hola.com/imagenes/cocina/recetas/20230105224146/flan-azahar/1-186-779/flan-azahar-adob-t.jpg?tx=w_680');
+               height: 300px;
+               background-size: cover;">
+      </div>
+    </div>
+  </div>
+
+  <!-- Texto  -->
+  <div class="position-absolute top-50 start-50 translate-middle p-5 text-white text-center" style="background-color: rgba(0, 0, 0, 0.7);">
+    <h2 class="mb-3">La Flaneria</h2>
+    <p>Aprende a hacer flanes de todos los sabores y estilos que puedas imaginar en un solo lugar.</p>
+  </div>
+</div>
+<!-- Imagenes del header -->
+
+  </header>
+<!-- Historia del flan -->
+      <div class="container mt-4 mb-4">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+
+              <h1 class="mb-3">Historia del flan</h1>
+              
+              <p>El flan es un postre tradicional que se ha consumido en diversas partes del mundo durante siglos. 
       
-        <!--Background-->
-        <div
-          class="p-5 text-center bg-image"
-          style="
-            background-image: url('https://img.freepik.com/fotos-premium/pudin-o-flan-caramelo-encima-delicioso-postre-dulce-tradicional_255669-2068.jpg');
-            height: 400px;
-            margin-top: 58px;
-          "
-        >
-          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-            <div class="d-flex justify-content-center align-items-center h-100">
-              <div class="text-white">
-                <h1 class="mb-3">La Flaneria</h1>
-                <h4 class="mb-3">Aprende a hacer flanes de todos los sabores y estilos que puedas imaginar en un solo lugar.</h4>
+                  Su origen es incierto, pero se cree que se remonta a la época de la Antigua Roma, 
+      
+                  donde se consumían pudines dulces hechos con huevos y leche. 
+      
+                  Estos pudines se llamaban tyropatina y se cocinaban al baño maría. Durante la Edad Media, 
+      
+                  el flan se convirtió en un postre popular en toda Europa, y cada país tenía su propia versión de la receta. 
+      
+                  En España, por ejemplo, se hacía flan con leche condensada, mientras que en Francia se preparaba con crema de vainilla. 
+      
+                  El flan francés se llamaba crème caramel y se servía con una capa de caramelo líquido por encima. En América Latina, 
+      
+                  el flan se convirtió en un postre muy popular durante la época colonial, y se adaptó a los ingredientes locales, 
+      
+                  como la leche de coco y el dulce de leche. En México, el flan se hace con leche evaporada y leche condensada, 
+      
+                  y se sirve con cajeta, un tipo de caramelo de leche. En Brasil,
+      
+                  el flan se llama pudim de leite y se hace con leche condensada, leche entera y huevos. En Cuba,
+      
+                  el flan se llama flan de leche y se hace con leche, huevos, azúcar y vainilla. En la actualidad,
+      
+                  el flan es un postre que se consume en todo el mundo, con numerosas variaciones de la receta original. 
+      
+                  Puede ser servido solo o con una variedad de acompañamientos, como frutas frescas, jarabes de caramelo, 
+      
+                  salsas de frutas, crema batida, etc. 
+      
+                  El flan es un postre que refleja la diversidad cultural y 
+      
+                  gastronómica de los países que lo han adoptado y modificado a lo largo de la historia.</p>
+          </div>
+<!-- Historia del flan -->      
+<!-- Carrusel -->            
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 mx-auto">
+                  <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://elfarodemelilla.es/wp-content/uploads/2022/07/flan.jpg" class="d-block w-100 img-fluid" alt="banner 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images-gmi-pmc.edge-generalmills.com/d5183341-5935-4dd9-a692-9ae12be877fd.jpg" class="d-block w-100 img-fluid" alt="banner 2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://s1.eestatic.com/2015/02/11/cocinillas/cocinillas_10259007_115776427_1706x960.jpg" class="d-block w-100 img-fluid" alt="banner 3">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!--Background-->
-      </header>
-
-    <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
-
-        <h1 class="mb-3">Historia del flan</h1>
-        
-        <p>El flan es un postre tradicional que se ha consumido en diversas partes del mundo durante siglos. 
-
-            Su origen es incierto, pero se cree que se remonta a la época de la Antigua Roma, 
-
-            donde se consumían pudines dulces hechos con huevos y leche. 
-
-            Estos pudines se llamaban tyropatina y se cocinaban al baño maría. Durante la Edad Media, 
-
-            el flan se convirtió en un postre popular en toda Europa, y cada país tenía su propia versión de la receta. 
-
-            En España, por ejemplo, se hacía flan con leche condensada, mientras que en Francia se preparaba con crema de vainilla. 
-
-            El flan francés se llamaba crème caramel y se servía con una capa de caramelo líquido por encima. En América Latina, 
-
-            el flan se convirtió en un postre muy popular durante la época colonial, y se adaptó a los ingredientes locales, 
-
-            como la leche de coco y el dulce de leche. En México, el flan se hace con leche evaporada y leche condensada, 
-
-            y se sirve con cajeta, un tipo de caramelo de leche. En Brasil,
-
-            el flan se llama pudim de leite y se hace con leche condensada, leche entera y huevos. En Cuba,
-
-            el flan se llama flan de leche y se hace con leche, huevos, azúcar y vainilla. En la actualidad,
-
-            el flan es un postre que se consume en todo el mundo, con numerosas variaciones de la receta original. 
-
-            Puede ser servido solo o con una variedad de acompañamientos, como frutas frescas, jarabes de caramelo, 
-
-            salsas de frutas, crema batida, etc. 
-
-            El flan es un postre que refleja la diversidad cultural y 
-
-            gastronómica de los países que lo han adoptado y modificado a lo largo de la historia.</p>
-    </div>
-
-
+      </div>
+<!-- Carrusel -->
     
-    <!-- Section: Form -->
+    <!-- Gmail Form -->
     <section class="">
         <form id="subscribeForm" onsubmit="return subscribe()">
             <!--Grid row-->
@@ -133,8 +194,7 @@
                 <div class="col-md-5 col-12">
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                        <input type="email" id="form5Example27" class="form-control" />
-                        <label class="form-label" for="form5Example27">próximamente</label>
+                      <input type="email" id="form5Example27" class="form-control" placeholder="próximamente" />
                     </div>
                 </div>
                 <!--Grid column-->
@@ -151,7 +211,7 @@
             <!--Grid row-->
         </form>
     </section>
-    <!-- Section: Form -->
+    <!-- Gmail Form -->
     
 
 <!-- Footer -->
@@ -215,7 +275,7 @@
               <a href="https://fumo.website" class="text-reset">Fumo Guide</a>
             </p>
             <p>
-              <a href="https://guthib.com" class="text-reset">GutHib</a>
+              <a href="https://tiblur.com" class="text-reset">Tiblur</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -225,7 +285,7 @@
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">Contactos</h6>
             <p><i class="fas fa-home me-3"></i>Calle publica sin numero</p>
-            <p><i class="fas fa-envelope me-3"></i>flanes@laflaneria.com</p>
+            <p><i class="fas fa-envelope me-3"></i>laflaneriareal@gmail.com</p>
             <p><i class="fas fa-phone me-3"></i>+54 3546 123 45</p>
           </div>
           <!-- Grid column -->
@@ -236,9 +296,8 @@
     <!-- Section: Links  -->
   
 
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2023 Copyright:
-      <a class="text-reset fw-bold" href="#">La Flaneria</a>
+    <div class="bg-dark text-white text-center p-4">
+      <p class="mb-0">© 2023 Copyright: <a class="text-reset fw-bold" href="#">La Flaneria</a></p>
     </div>
 
   </footer>
